@@ -1,1 +1,1 @@
-export const baseURL = "https://cors-anywhere.herokuapp.com/https://www.receitaws.com.br/v1/";
+export const baseURLCNPJ = "https://www.receitaws.com.br/v1";

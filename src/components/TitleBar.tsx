@@ -19,6 +19,7 @@ const TitleBar = () => {
 
   const valida = (cnpj: string) => {
     const isValid = cnpj.replace(/\W/gi, '');
+    
     if (isValid.length === 14) {
       if (verificaCNPJ(isValid)) {
         setCnpj(cnpj);

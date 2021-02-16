@@ -1,9 +1,13 @@
 import axios from "axios";
-import { baseURL } from "./constants";
+import { baseURLCNPJ } from "./constants";
 
 const apiCNPJ = axios.create({
-  baseURL,
-  headers: { 'X-Requested-With': 'XMLHttpRequest' },
+	baseURL: baseURLCNPJ,
+	headers: {
+		"X-Requested-With": "XMLHttpRequest",
+		"Access-Control-Allow-Origin": "*",
+	},
+	data: "jsonp",
 });
 
 export default apiCNPJ;
