@@ -37,7 +37,7 @@ e robusto no que tange a realização e manuseio de requisições RESTful.
 ### Firebase Hosting
 Para a hospedagem do projeto foi utilizado o sistema de hosting da Firebase o que tornou prático e rápido a configuração e deploy
 do projeto em uma plataforma pública web.
-Link de acesso ao projeto Hosteado: https://localizador-de-empresas-cabae.web.app/home
+Link de acesso ao projeto Hosteado: https://localizador-de-empresas-cc822.web.app/home
 
 ## Estrutura de pastas do Localizador de Empresas
 + Conexa-Labs
@@ -97,7 +97,7 @@ React's context system was also used to make vital data available to the entire 
 The Axios HTTP request client was used as an alternative to the standard Javascript Fetch library as it is more practical and robust when it comes to performing and handling RESTful requests.
 
 ### Firebase Hosting
-The Firebase hosting system was used to host the project, which made it practical and quick to configure and deploy the project on a public web platform. Link to access the Hosteado project: https://localizador-de-empresas-cabae.web.app/home
+The Firebase hosting system was used to host the project, which made it practical and quick to configure and deploy the project on a public web platform. Link to access the Hosteado project: https://localizador-de-empresas-cc822.web.app/home
 
 ## How to run the project
 1. Clone or Download this repository;
