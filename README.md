@@ -77,12 +77,12 @@ Link de acesso ao projeto Hosteado: https://localizador-de-empresas-cabae.web.ap
 4. Execute o comando ``` yarn start ```
 
 # [EN]
-## What is the company locator?
-The company locator was developed for the front-end interview process of the Conexa Hub company. It receives an CNPJ(National Register of Legal Entities) and with that makes various requests to the receitaws.com.br API which returns a miriad of informations about that specific company, it also geocodes(with the google geocoding API) the company address so that its location can be rendered in a google maps API map.
+## What is the company finder?
+The company finder was developed for the front-end interview process of the Conexa Hub company. It receives an CNPJ(National Register of Legal Entities) and with that makes various requests to the receitaws.com.br API which returns a miriad of informations about that specific company, it also geocodes(with the google geocoding API) the company address so that its location can be rendered in a google maps API map.
 
 ## Tecnologies used in the project
 ### React+Typescript
-The Company Finder was coded using the typescript version of react and thus type declaration files were used which are identified by the .d.ts extension and serve as a "guide" for the TypeScript language to know with which type of custom file it is handling and thus make it easier for Lint to discover these files by making the code more organized and free from unnecessary imports.
+The Company Finder was coded using the typescript version of react and thus type declaration files were used which are identified by the .d.ts extension and serve as a "guide" for the TypeScript language to know which type of custom file it is handling and thus make it easier for Lint to discover these files by making the code more organized and free from unnecessary imports.
 
 ### Material UI Library and Sass Preprocessor
 The ui library material was also used in this project, but to achieve the expected result and make the application as trustworthy as possible to the Style Guide, the CSS Sass pre-processor was used, which makes stylesheet files much more organized, readable and offers powerful tools when styling on-screen components.
