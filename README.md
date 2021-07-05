@@ -80,6 +80,25 @@ Link de acesso ao projeto Hosteado: https://localizador-de-empresas-cabae.web.ap
 ## What is the company locator?
 The company locator was developed for the front-end interview process of the Conexa Hub company. It receives an CNPJ(National Register of Legal Entities) and with that makes various requests to the receitaws.com.br API which returns a miriad of informations about that specific company, it also geocodes(with the google geocoding API) the company address so that its location can be rendered in a google maps API map.
 
+## Tecnologies used in the project
+### React+Typescript
+The Company Finder was coded using the typescript version of react and thus type declaration files were used which are identified by the .d.ts extension and serve as a "guide" for the TypeScript language to know with which type of custom file it is handling and thus make it easier for Lint to discover these files by making the code more organized and free from unnecessary imports.
+
+### Material UI Library and Sass Preprocessor
+The ui library material was also used in this project, but to achieve the expected result and make the application as trustworthy as possible to the Style Guide, the CSS Sass pre-processor was used, which makes stylesheet files much more organized, readable and offers powerful tools when styling on-screen components.
+
+### React hooks and hexadecimal encryption
+Furthermore, to make the local storage function as robust, complete, and secure as possible, a hexadecimal encryption method was used with react hooks on the strings that are stored locally in the browser system to prevent the stored data from being later stolen from the user's machine or intercepted by a third party.
+
+### React contexts
+React's context system was also used to make vital data available to the entire project and thus facilitate data communication between the application's components, which makes rendering and handling data much easier and more practical.
+
+### Axios+REST
+The Axios HTTP request client was used as an alternative to the standard Javascript Fetch library as it is more practical and robust when it comes to performing and handling RESTful requests.
+
+### Firebase Hosting
+The Firebase hosting system was used to host the project, which made it practical and quick to configure and deploy the project on a public web platform. Link to access the Hosteado project: https://localizador-de-empresas-cabae.web.app/home
+
 ## How to run the project
 1. Clone or Download this repository;
 2. Open your favorite CLI
