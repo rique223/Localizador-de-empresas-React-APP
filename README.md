@@ -75,3 +75,6 @@ Link de acesso ao projeto Hosteado: https://localizador-de-empresas-cabae.web.ap
 2. Abra seu CLI favorito
 3. Execute o comando ``` yarn ``` ou ``` npm i ```(yarn é mais rápido ;) )
 4. Execute o comando ``` yarn start ``` 
+
+# [EN]
+The company locator was developed for the front-end interview process of the Conexa Hub company. It receives an CNPJ(National Register of Legal Entities) and with that makes various requests to the receitaws.com.br API which returns a miriad of informations about that specific company, it also geocodes(with the google geocoding API) the company address so that its location can be rendered in a google maps API map.
